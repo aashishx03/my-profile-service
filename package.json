@@ -1,0 +1,11 @@
+{
+  "name": "my-profile-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aashish <aashishdubey620@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}
