@@ -1,5 +1,6 @@
 const bcrypt = require("bcrypt");
 const dotenv = require("dotenv").config();
+const { sha512 } = require("js-sha512");
 
 const getHealth = (_, res) => {
   res.status(200).json({
